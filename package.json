@@ -1,0 +1,26 @@
+{
+  "name": "smart-home-api",
+  "version": "1.0.0",
+  "description": "Simple smart home API, built with NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopFirst/smart-home-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TopFirst/smart-home-api/issues"
+  },
+  "homepage": "https://github.com/TopFirst/smart-home-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
