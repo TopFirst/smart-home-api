@@ -12,6 +12,10 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
+app.get('/api/test',(req,res)=>{
+    res.send('yeay! berhasil');
+});
+
 app.use(middlewareAuth);
 
 app.use('/api/home',homeRoutes);

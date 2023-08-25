@@ -11,7 +11,7 @@ const getData = () => {
     return JSON.parse(jsonData)   
 }
 
-const Get=(req,res,next)=>{
+const Get=(req,res)=>{
     const dat=getData();
     res.send(dat);
 }
